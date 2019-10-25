@@ -22,6 +22,9 @@ step to creat this project
   $ git push heroku master
   $ heroku open
 
-
+8-in heroku use "process.env.PORT || 3000" for listening port
+   it run on 3000 on local and run on env.PORT on heroku 
+   use heroku log to find actual running port number with 
+   $ heroku log --tail
 
 my heroku web link : https://limitless-depths-88583.herokuapp.com/
