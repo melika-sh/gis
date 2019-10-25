@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const express = require('express');
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 var inside = require('point-in-polygon');
 var features = [];
 var data = fs.readFileSync('input.json', 'utf-8');
@@ -13,7 +13,7 @@ gis.features.forEach(function (feature) {
 express()
   .use(express.json())
   .get('/gis/testpoint', (req, res) => {
-    var result = { polygons: [] };
+    var result = { polygons : [] };
     try {
       var point = [parseFloat(req.query.lat), parseFloat(req.query.long)];
       features.forEach(function (feature) {
@@ -36,4 +36,5 @@ express()
 
     }
   })
+  .get('/' ,(req,res) => res.send("Worked ..."))
   .listen(PORT, () => console.log(`Listening on ${PORT}`))
