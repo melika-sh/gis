@@ -1,37 +1,27 @@
-# node-js-getting-started
+This is my first homework for the Internet Engineering course:
+step to creat this project 
+1-install heroku by downloading it from heroku website
+2-heroku login
+3-install node, npm, git 
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+4-clone nodejs sample from heroku by
+   $ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
+   $ cd node-js-getting-started
+   $ npm install
+   $ npm start
+   
+5-write my project by changing the horoku template
+    for geo spatial library use point-in-polygon
+    with
+    $ npm install point-in-polygon
+    i placed initial gisfile in input.json 
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
-
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
-
-```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
+6-deploy to heroku by 
+  $ heroku create
+7- run webapp and open it  
+  $ git push heroku master
+  $ heroku open
 
 
 
-
-for geo spatial library use point-in-polygon
-with
-$ npm install point-in-polygon
-i placed initial gisfile in input.json 
-
-linke heroku : https://limitless-depths-88583.herokuapp.com/
+my heroku web link : https://limitless-depths-88583.herokuapp.com/
