@@ -31,4 +31,6 @@ step to creat this project
    $ heroku log --tail
 
 my heroku web link : https://limitless-depths-88583.herokuapp.com/
-test: https://limitless-depths-88583.herokuapp.com/gis/testpoint?lat=52&long=34
+test:
+https://limitless-depths-88583.herokuapp.com/gis/testpoint?lat=52&long=34
+returnd:{"polygons" :["Test"]}
