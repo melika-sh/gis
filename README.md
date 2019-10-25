@@ -1,7 +1,10 @@
 This is my first homework for the Internet Engineering course:
 step to creat this project 
+
 1-install heroku by downloading it from heroku website
+
 2-heroku login
+
 3-install node, npm, git 
 
 4-clone nodejs sample from heroku by
@@ -28,3 +31,4 @@ step to creat this project
    $ heroku log --tail
 
 my heroku web link : https://limitless-depths-88583.herokuapp.com/
+test: https://limitless-depths-88583.herokuapp.com/gis/testpoint?lat=52&long=34
